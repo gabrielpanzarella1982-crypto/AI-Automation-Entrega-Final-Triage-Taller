@@ -28,23 +28,26 @@ Cuando un cliente escribe al taller pidiendo un turno, el sistema lee el mail y 
 | Dashboard de Control (Shared View pública) | https://airtable.com/appWdTh5wf2wSj32h/shr0ZHcdO8hPqTbP2 |
 | Base de datos en modo lectura | https://airtable.com/appWdTh5wf2wSj32h/shrEwVZf53bsbH09a |
 | Video demo | https://www.loom.com/share/3c0fcc980a264de789a8e8e83d85793e |
+| Escenario A en Make (página pública) | https://us2.make.com/public/shared-scenario/bo3DroxN6fL/taller-mecanico-a-ingesta-y-borrador |
+| Escenario B en Make (página pública) | https://us2.make.com/public/shared-scenario/2x5zp5cRCp9/taller-mecanico-b-envio-tras-aprobaci |
 
 ## Contenido del repositorio
 
 | Archivo | Qué es |
 |---|---|
-| `PDF_Documento_Entrega_Final.pdf` | Documento completo con los 5 entregables |
-| `PDF_Diagrama_de_Arquitectura.pdf` | Mapa de arquitectura en PDF |
-| `Blueprint_Escenario_A_Ingesta_HITL.blueprint.json` | Blueprint del Escenario A de Make (importable) |
-| `Blueprint_Escenario_B_Envio.blueprint.json` | Blueprint del Escenario B de Make (importable) |
-| `Evidencia_Fig*.png` | Capturas de evidencia del flujo funcionando (detalle más abajo) |
+| [PDF Documento Entrega Final.pdf](PDF%20Documento%20Entrega%20Final.pdf) | Documento completo con los 5 entregables |
+| [PDF Diagrama de Arquitectura.pdf](PDF%20Diagrama%20de%20Arquitectura.pdf) | Mapa de arquitectura en PDF |
+| [PDF Enlaces de la Entrega.pdf](PDF%20Enlaces%20de%20la%20Entrega.pdf) | Todos los enlaces de la entrega en un solo PDF |
+| [Blueprint Escenario A Ingesta HITL.blueprint.json](Blueprint%20Escenario%20A%20Ingesta%20HITL.blueprint.json) | Blueprint del Escenario A de Make (importable) |
+| [Blueprint Escenario B Envio.blueprint.json](Blueprint%20Escenario%20B%20Envio.blueprint.json) | Blueprint del Escenario B de Make (importable) |
+| `Evidencia Fig*.png` | Capturas de evidencia del flujo funcionando (detalle más abajo) |
 
 ## Dónde está cada criterio de la rúbrica
 
 | Criterio (20 % cada uno) | Dónde se ve |
 |---|---|
-| 1. Mapa de arquitectura | `PDF_Diagrama_de_Arquitectura.pdf` y sección 2 del documento |
-| 2. Estructuras de datos documentadas | Sección 3 del documento (`PDF_Documento_Entrega_Final.pdf`): tablas vinculadas, ciclo de estados, esquemas JSON de cada integración y prompt |
+| 1. Mapa de arquitectura | [PDF Diagrama de Arquitectura.pdf](PDF%20Diagrama%20de%20Arquitectura.pdf) y sección 2 del documento |
+| 2. Estructuras de datos documentadas | Sección 3 del documento ([PDF Documento Entrega Final.pdf](PDF%20Documento%20Entrega%20Final.pdf)): tablas vinculadas, ciclo de estados, esquemas JSON de cada integración y prompt |
 | 3. Optimización de costos | Sección 4: matriz de modelo por tarea, Batches y Prompt Caching, costo de orquestación |
 | 4. Seguridad y resiliencia | Sección 5: minimización de datos, rutas de error (Break, Resume, Ignore), puntos de Human-in-the-loop |
 | 5. Dashboard de Control | Sección 6 y la Shared View pública con KPIs y tasa de error |
@@ -60,13 +63,13 @@ Cuando un cliente escribe al taller pidiendo un turno, el sistema lee el mail y 
 
 | Archivo | Qué demuestra |
 |---|---|
-| `Evidencia_Fig2_Dashboard_Incognito.png` | El dashboard se abre sin iniciar sesión, así que el enlace es público |
-| `Evidencia_Fig3_Escenario_A_Make.png` | Escenario A con los módulos nombrados, rutas de error y Router |
-| `Evidencia_Fig4_Slack_Aprobacion_HITL.png` | Notificación de aprobación en Slack |
-| `Evidencia_Fig5_Tickets_Esperando_Aprobacion.png` | Tickets con borrador, detenidos a la espera de aprobación |
-| `Evidencia_Fig6_Escenario_B_Frenado_Sin_Aprobacion.png` | Sin aprobación, el filtro frena y no se envía nada |
-| `Evidencia_Fig7_Tickets_Aprobados.png` | El paso humano que habilita el envío |
-| `Evidencia_Fig8_Gmail_Respuesta_En_Hilo.png` | Respuesta al cliente en el mismo hilo de Gmail |
+| [Evidencia Fig2 Dashboard Incognito.png](Evidencia%20Fig2%20Dashboard%20Incognito.png) | El dashboard se abre sin iniciar sesión, así que el enlace es público |
+| [Evidencia Fig3 Escenario A Make.png](Evidencia%20Fig3%20Escenario%20A%20Make.png) | Escenario A con los módulos nombrados, rutas de error y Router |
+| [Evidencia Fig4 Slack Aprobacion HITL.png](Evidencia%20Fig4%20Slack%20Aprobacion%20HITL.png) | Notificación de aprobación en Slack |
+| [Evidencia Fig5 Tickets Esperando Aprobacion.png](Evidencia%20Fig5%20Tickets%20Esperando%20Aprobacion.png) | Tickets con borrador, detenidos a la espera de aprobación |
+| [Evidencia Fig6 Escenario B Frenado Sin Aprobacion.png](Evidencia%20Fig6%20Escenario%20B%20Frenado%20Sin%20Aprobacion.png) | Sin aprobación, el filtro frena y no se envía nada |
+| [Evidencia Fig7 Tickets Aprobados.png](Evidencia%20Fig7%20Tickets%20Aprobados.png) | El paso humano que habilita el envío |
+| [Evidencia Fig8 Gmail Respuesta En Hilo.png](Evidencia%20Fig8%20Gmail%20Respuesta%20En%20Hilo.png) | Respuesta al cliente en el mismo hilo de Gmail |
 
 ## Check de seguridad
 
